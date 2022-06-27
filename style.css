@@ -14,7 +14,18 @@ body {
 }
 
 .container {
-    height: 200px;
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
     background: #ffffff;
+    align-items: center;
+    border: 2px solid white;
+}
+
+img {
+    height: 270px;
+    width: 270px;
+    /* border: 10px solid white; */
+    margin: 4px 4px;
 }
