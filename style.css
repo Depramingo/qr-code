@@ -1,14 +1,7 @@
-html {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", sans-serif;
-    width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
