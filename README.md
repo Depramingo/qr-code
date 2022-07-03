@@ -76,5 +76,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Acknowledgments
 
--   Shout out to [Matt V.](https://github.com/mv805), his solution helped me write my own and made the process SO MUCH easier.
--   Thank you to [Senofy, Mando Ben, blinkbat, <Kwoka />, Doug.. and more] from the "Web dev and web design" discord server, who helped me with this, they answered the sheer amount of questions I had, gave me advice, and helped me understand so many things, I can't thank them enough.
+-   Shout out to [Matt V.](https://github.com/mv805), his [solution](https://github.com/mv805/QR-Code-challenge) helped me write my own and made the process SO MUCH easier.
+-   Thank you to [Senofy, Mando Ben, blinkbat, Kwoka, Doug.. and more] from the "Web dev and web design" discord server, who helped me with this, they answered the sheer amount of questions I had, gave me advice, and helped me understand so many things, I can't thank them enough.
