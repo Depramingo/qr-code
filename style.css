@@ -1,4 +1,7 @@
 * {
+    padding: 0;
+    margin: 0;
+    /* margin 0 removed an issue where I had a scrollbar */
     box-sizing: border-box;
 }
 
@@ -18,26 +21,23 @@ main {
     border: 1px solid white;
     border-radius: 1rem;
     width: 15.6rem;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     margin: 20px;
     background-color: hsl(0, 0%, 100%);
-    transition: box-shadow 0.5s;
 }
 
 p {
     font-size: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+    margin: 0 0 5px 0;
 }
 
 h1 {
     font-weight: 700;
     font-size: 22px;
     color: hsl(218, 44%, 22%);
-}
-
-main:hover {
-    box-shadow: 0px 11px 39px 9px hsl(210, 30%, 78%);
+    margin: 10px 0 10px 0;
 }
 
 main img {
@@ -48,4 +48,23 @@ main img {
 footer {
     width: 250px;
     text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        transition: box-shadow 0.5s;
+        width: 25rem;
+    }
+
+    main:hover {
+        box-shadow: 0px 11px 39px 9px hsl(210, 30%, 78%);
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
 }
