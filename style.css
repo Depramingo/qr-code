@@ -54,12 +54,13 @@ footer {
 /* in the style-guide, they specified desktop width as 1440px, but I decided not to use exactly that cuz there's still smaller desktop devices with touch:false, so...*/
 @media screen and (min-width: 992px) {
     main {
-        transition: box-shadow 0.5s;
+        transition: all 0.2s ease-in-out;
         width: 25rem;
     }
 
     main:hover {
-        box-shadow: 0px 11px 39px 9px hsl(210, 30%, 78%);
+        box-shadow: 0px 11px 39px 9px hsl(210, 77%, 79%);
+        transform: scale(1.01);
     }
 
     h1 {
