@@ -28,61 +28,47 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 -   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [live site](https://depramingo.github.io/qr-code/)
+-   Live Site URL: [live site](https://depramingo.github.io/qr-code-component/)
 
 ## My process
 
 ### Built with
 
 -   Semantic HTML5 markup
--   CSS custom properties
+-   CSS
 -   Flexbox
--   CSS Grid
 -   Mobile-first workflow
--   [React](https://reactjs.org/) - JS library
--   [Next.js](https://nextjs.org/) - React framework
--   [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+-   This was my first "actual" project ever, I mean one where I understood every single line of code I wrote, I wasn't scared or anxious. I didn't freeze. I just kept on going and whenever I encountered an issue, I just looked for the solution. And whenever I encountered something new, I just learned it.
 
-To see how you can add code snippets, see below:
+-   I learned Git & Github.. yes, I didn't know how to use them before I started this project, had them for a while tho.
+-   I learned how to add icons in the HTML file:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<link rel="icon" href="./images/favicon-32x32.png" type="image/png" />
 ```
 
+-   learned a lot of CSS:
+
 ```css
-.proud-of-this-css {
-    color: papayawhip;
+.all-these {
+    box-sizing: border-box, content-box;
+    max-width: 100%;
+    min-height: 100vh;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.01);
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-    console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+-   learned about CSS cubic-bezier as well.. but didn't use it here
+-   Learned CSS @media queries as well
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
--   [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--   [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+-   CSS cubic-bezier function
+-   CSS transition & transform properties
 
 ## Author
 
