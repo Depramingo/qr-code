@@ -1,0 +1,61 @@
+VH = Viewport Height:
+
+A height in percentage needs a height set on the parent element as well, whereas vh doesn’t, so you can use it “everywhere”, even further down the line within a parent element that doesn’t have a height set or has different height.
+
+height: 100vh = 100% of the viewport height
+
+height: 100% = 100% of the parent's element height
+
+Tip : try using vh and vw units for font size :) I like this one (not supported in some browsers I know) : font-size: calc(.5vh + .5vw); (for example)
+.................................
+
+View port units = vw, vh, vmin, and vmax - are based on the size of the browser viewport. Because, their actual size changes depending on the Viewport Size, this makes them great units for responsive design
+
+Note: When dealing with widths, the % unit is more suitable but with heights, the vh unit is better.
+
+the width of the viewport will actually be larger than the width of the html element.
+
+Viewport > html > body
+.................................
+
+height: 100vh = 100% of the viewport height
+
+Technically, this is true, but a better way to think of it is = 100% of the available height.
+
+If you are looking to fill up a div with the available height, that's a mighty useful trick. Before I learned this, I would have to ensure every div from html down to the nested div had a height of 100% which can be tedious and error prone. Instead, I now just use height:100vh on the nested item.
+----------------------------------------------------------------
+
+No need to style html at all
+
+in body, use "max-width: 100%" instead of just "width"
+----------------------------------------------------------------
+
+Rem Units vs. Em Units
+
+The difference between rem units and em units is that em units are relative to the font size of their own element, not the root element. As such they can cascade and cause unexpected results. Let’s consider the following example, where we want lists to have a font size of 12px, in the case where the root font size is the default 16px
+----------------------------------------------------------------
+
+transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
+
+
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.box:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+----------------------------------------------------------------
+
